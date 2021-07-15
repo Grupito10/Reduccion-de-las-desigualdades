@@ -10,7 +10,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 /* cambien aquí sus tipografías, necesitan definir un par */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
 /* cambien aquí sus colores, necesitan definir tres */
 
@@ -31,7 +31,7 @@ body {
 }
 
 strong {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 h1,
@@ -43,7 +43,7 @@ h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 a {
@@ -73,22 +73,22 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
-    background-position: center center;
+    background-image: url("img/21x9.jpeg");
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--segundocolor);
 }
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/relacion-4x3.png");
+        background-image: url("img/21x9.jpeg");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/relacion-21x9.png");
+        background-image: url("img/21x9.jpeg");
     }
 }
 
@@ -102,7 +102,7 @@ Con tales colores, la imagen sirve de transición a la parte que ofrece más inf
 --------------------------------------------------------------------------------------------- */
 
 main {
-    background-image: url("img/relacion-21x9.png");
+    background-image: url("img/fotito.jpg");
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: 100% auto;
